@@ -9,7 +9,7 @@ function App() {
         <div className="text-center mb-8">
           <div className="flex justify-center mb-6">
             <img 
-              src="/images/esfera-logo.svg" 
+              src="./images/esfera-logo.svg" 
               alt="Esfera Papelaria" 
               className="h-24 md:h-32"
             />
