@@ -1,5 +1,3 @@
-import { QuizQuestion } from '../types/quiz';
-
 // Interface para as referências de estudo
 export interface StudyReference {
   title: string;

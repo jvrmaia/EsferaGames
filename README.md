@@ -1,3 +1,85 @@
+# Esfera Papelaria - Quiz
+
+Um quiz interativo para a Esfera Papelaria, desenvolvido com React, TypeScript e Tailwind CSS.
+
+## Sobre o Projeto
+
+Este projeto é um quiz interativo que testa o conhecimento dos usuários sobre papelaria, arte e materiais escolares. O quiz apresenta perguntas de diferentes níveis de dificuldade (fácil, médio e difícil) e fornece feedback imediato sobre as respostas.
+
+## Funcionalidades
+
+- Perguntas de múltipla escolha com diferentes níveis de dificuldade
+- Feedback visual imediato para respostas corretas e incorretas
+- Transição automática para a próxima pergunta após responder
+- Exibição da pontuação final ao concluir o quiz
+- Opção de reiniciar o quiz
+- Informações sobre lojas físicas e referências de estudo
+
+## Tecnologias Utilizadas
+
+- React 19
+- TypeScript
+- Tailwind CSS 3
+- Vite
+- GitHub Actions para CI/CD
+
+## Desenvolvimento
+
+### Pré-requisitos
+
+- Node.js (versão 18 ou superior)
+- npm ou yarn
+
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/jvrmaia/EsferaGames.git
+   cd EsferaGames
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+4. Acesse o aplicativo em `http://localhost:5173`
+
+### Scripts Disponíveis
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Compila o projeto para produção
+- `npm run lint` - Executa a verificação de linting
+- `npm run preview` - Visualiza a versão de produção localmente
+- `npm run deploy` - Faz o deploy para o GitHub Pages
+
+## Deploy
+
+### Deploy Automático
+
+O projeto está configurado com GitHub Actions para fazer o build e deploy automaticamente quando há um push para a branch `main`. O workflow está definido no arquivo `.github/workflows/build-deploy.yml`.
+
+### Deploy Manual
+
+Para fazer o deploy manualmente para o GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## Acesso ao Site
+
+O quiz está disponível em: [https://jvrmaia.github.io/EsferaGames/](https://jvrmaia.github.io/EsferaGames/)
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -52,4 +134,3 @@ export default tseslint.config({
   },
 })
 ```
-# EsferaGames
